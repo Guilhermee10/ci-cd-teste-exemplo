@@ -4,7 +4,7 @@
   "description": "Projeto simples para aulas de CI-CD",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --env allure=true",
+    "test": "npx cypress run",
     "report:generate": "npx allure@3.9.0 generate --output allure-report allure-results",
     "report:open": "npx allure@3.9.0 open allure-report"
    

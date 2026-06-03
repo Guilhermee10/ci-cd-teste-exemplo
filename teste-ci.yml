@@ -1,8 +1,0 @@
- - name: Gerar relatorio Allure
-      run: npm run report:generate
-
-  - name: Publicar relatório GB pagesy
-    uses: peaceiris/actions-gh-pages@v4
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_dir: ./public
